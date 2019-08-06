@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main() {
+    float x,p,i;
+    float y;
+    scanf("%f %f",&x,&p);
+    int sum=0;
+    while((int)x>0){
+        sum=sum+x;
+        y=(x*(p)/100.0);
+        x=x-y;
+        x=(int)x;
+    }
+    printf("%d",sum);
+}
