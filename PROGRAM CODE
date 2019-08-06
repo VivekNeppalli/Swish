@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    float x,p,i;
+    float x,p;
     float y;
     scanf("%f %f",&x,&p);
     int sum=0;
